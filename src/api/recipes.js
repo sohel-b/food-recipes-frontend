@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // This is the base URL for the backend. 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://food-recipes-backend.onrender.com";
 
 // This function fetches all recipes from the backend
 export const fetchAllRecipes = () => {
